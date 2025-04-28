@@ -1,0 +1,1 @@
+# docker run --rm --cap-add=NET_RAW --cap-add=NET_ADMIN --network host -v /sys/class/net:/sys/class/net -v ./:/app/  -e PYTHONUNBUFFERED=1 hide-my-mac --ip {{your_ip_address}}  --gateway_ip {{gateway_ip_address}} --iface {{network_interface}}
